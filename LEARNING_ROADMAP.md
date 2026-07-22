@@ -52,7 +52,7 @@ Work through one day at a time, keeping each session to the 30-minute structure 
 ## Progress Checklist
 
 - [x] Day 1 — Local Setup (Python 3.11+, Playwright, VS Code, API key / Ollama)
-- [ ] Day 2 — Structured Outputs & JSON Mode for Test Case Generation
+- [x] Day 2 — Structured Outputs & JSON Mode for Test Case Generation
 - [ ] Day 3 — Function Calling & Tool Use in Test Automation
 - [ ] Day 4 — Parsing DOM Trees & Accessibility Trees for LLM Context
 - [ ] Day 5 — Week 1 Synthesis: generate Playwright tests from user stories
