@@ -8,3 +8,6 @@
 playwright==1.55.0
 python-dotenv==1.1.1
 ollama==0.5.4
+
+# Day 2 — structured outputs / JSON mode.
+pydantic==2.11.7
