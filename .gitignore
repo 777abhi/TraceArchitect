@@ -46,7 +46,9 @@ ENV/
 
 # IDEs
 .idea/
-.vscode/
+# Ignore local VS Code settings but keep shared editor recommendations.
+.vscode/*
+!.vscode/extensions.json
 
 # OS
 .DS_Store
