@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sign in — Example</title>
+    <style>.hidden { display: none; }</style>
+    <script>console.log("noise the LLM does not need");</script>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Primary">
+        <a href="/">Home</a>
+        <a href="/help">Help</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Sign in</h1>
+      <form id="login-form">
+        <div class="field">
+          <label for="username">Username</label>
+          <input id="username" name="username" type="text" placeholder="you@example.com" />
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" />
+        </div>
+        <div class="field">
+          <input id="remember" name="remember" type="checkbox" checked />
+          <label for="remember">Remember me</label>
+        </div>
+        <button id="login-btn" type="submit">Log in</button>
+        <a class="forgot-password" href="/reset">Forgot password?</a>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2025 Example Inc.</p>
+    </footer>
+  </body>
+</html>
